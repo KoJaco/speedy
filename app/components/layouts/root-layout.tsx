@@ -22,7 +22,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
                 <main className="mt-24  flex flex-col h-full px-8 flex-1">
                     {children}
                 </main>
-                <footer className="mt-auto w-full py-16 px-8 border-t border-foreground/25 flex justify-between items-end">
+                <footer className="mt-auto w-full py-16 px-8 flex justify-between items-end">
                     <div className="text-sm">
                         <h3 className="text-semibold capitalize">Site</h3>
                         <ul className="text-foreground/50 mt-2">
